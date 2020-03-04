@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import RouletteGun from './RouletteGun';
+import Accordion from '/Accordion';
 
 class App extends Component {
   render() {
     return (
-      <div className="Roulette-Gun">
-        <RouletteGun />
+      <div className="Accordion">
+        <Accordion />
       </div>
     );
   }
